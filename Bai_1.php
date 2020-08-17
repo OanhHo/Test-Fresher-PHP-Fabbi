@@ -7,10 +7,7 @@
 
 <body>
 <?php
-$arrayA=array();
-?>
-?>
-<?php
+function dao_mang($arrayA){
 $arrayB=$arrayA;
 $size_mang=sizeof($arrayA);
 $n=$size_mang/3;
@@ -44,6 +41,7 @@ else{
         $array_output[$j+2]=$arrayZ[$i];
         $j*3;
     }
+}
 }
 ?>
 </body>
